@@ -5,10 +5,10 @@ using namespace std;
 int main()
 {
     int a, b, c;
-    cout << "algorytm wyznaczający największy wspólny dzielnik \n";
-    cout << "wyznacz liczbę a :";
+    cout << "Algorytm wyznaczający największy wspólny dzielnik \n";
+    cout << "Wyznacz liczbę a :";
     cin >> a;
-    cout << "wyznacz liczbę b :";
+    cout << "Wyznacz liczbę b :";
     cin >> b;
     if (a == b) {
         cout << a;
@@ -30,6 +30,6 @@ int main()
     }
 
     cout << "Największym wspólnym Dzielnikiem jest :" << a << "\n";
-    cout << "NAjmniejsza wspólna wielokrotność to :" << c / a;
+    cout << "Najmniejsza wspólna wielokrotność to :" << c / a;
   
 }
